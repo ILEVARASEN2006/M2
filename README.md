@@ -34,11 +34,9 @@ int main() {
 
 ```
 ## OUTPUT:
-```
-Even numbers from 4 to 15 are:
-4 6 8 10 12 14
 
-```
+![image](https://github.com/user-attachments/assets/94daefc4-cbbd-46c0-a723-b2b785343fb6)
+
 ## RESULT:
 Thus the program to print even numbers ranging from M to N (including M and N values) has been executed successfully
  
@@ -78,14 +76,7 @@ int main() {
 ```
 ## OUTPUT:
 
-```
-Enter the number of rows: 5
-* 
-* * 
-* * * 
-* * * * 
-* * * * * 
-```
+![image](https://github.com/user-attachments/assets/5b4f71e6-4cfc-4b5f-b794-ee13ae5bd57f)
 
 ## RESULT:
 
@@ -112,6 +103,7 @@ Write a C program to perform addition and subtraction of two numbers using funct
 #include <stdio.h>
 void add(int a, int b);
 void subtract(int a, int b);
+
 int main() {
     int num1, num2;
     printf("Enter first number: ");
@@ -132,15 +124,12 @@ void subtract(int a, int b) {
     int diff = a - b;
     printf("Subtraction: %d - %d = %d\n", a, b, diff);
 }
+
 ```
 
 ## OUTPUT:
-```
-Enter first number: 15
-Enter second number: 8
-Addition: 15 + 8 = 23
-Subtraction: 15 - 8 = 7
-```
+
+![image](https://github.com/user-attachments/assets/0ca854e1-fe61-4894-b290-9eaa51958190)
 
 ## RESULT:
 
@@ -173,8 +162,6 @@ int main() {
     scanf("%d", &num);
     for (; num > 0; num /= 10) {
         digit = num % 10;
-
-        // Check if the digit is odd
         if (digit % 2 != 0) {
             sum += digit;
         }
@@ -187,11 +174,7 @@ int main() {
 
 ## OUTPUT:
 
-```
-Enter a number: 45291
-Sum of odd digits = 15
-```
-
+![image](https://github.com/user-attachments/assets/1b525b4b-0e91-454e-8153-ac06d521f397)
 
 ## RESULT:
 
@@ -242,10 +225,8 @@ long long factorial(int n) {
 ```
 
 ## OUTPUT:
-```
-Enter a positive integer: 6
-Factorial of 6 = 720
-```
+
+![image](https://github.com/user-attachments/assets/ba789ece-ce1d-439f-bcf5-4ce1cbdc4b4c)
 
 ## RESULT:
 The program correctly computes the factorial of a given number using a separate function and displays the result.
